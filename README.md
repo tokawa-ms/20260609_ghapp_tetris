@@ -23,5 +23,11 @@ MAI-Code-1-Flash では、以下の内容を中心に実装と整理を行いま
 - 表示系（スコア、ライン、レベル、Next）を追加
 - そのままブラウザで動作するようにシンプル化
 
+### GitHub Pages で公開する方法
+1. GitHub リポジトリの Settings > Pages を開く
+2. Source を "GitHub Actions" に変更する
+3. main ブランチへ push すると、`.github/workflows/deploy-pages.yml` が自動で Pages にデプロイします
+4. 完了後、GitHub が表示する URL でゲームをプレイできます
+
 ### 今後のメモ
 - 追加機能（音、ハイスコア、難易度調整など）はこのまま拡張しやすい構成です。
